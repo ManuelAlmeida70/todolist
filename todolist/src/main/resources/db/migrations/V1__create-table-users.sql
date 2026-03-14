@@ -1,0 +1,6 @@
+CREATE  TABLE  users(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name NVARCHAR(30) NOT NULL,
+    nameUser NVARCHAR(15) NOT NULL,
+    passWord NVARCHAR(255) NOT NULL,
+);
